@@ -1,0 +1,35 @@
+version: '3.8'
+services:
+  cassandra1:
+    image: cassandra:latest
+    container_name: node1
+    environment:
+      - CASSANDRA_CLUSTER_NAME=Cluster1
+      - CASSANDRA_DC=southeast-1
+      - CASSANDRA_ENDPOINT_SNITCH=GossipingPropertyFileSnitch
+      - CASSANDRA_SEEDS=node1,node2
+      - CASSANDRA_BROADCAST_ADDRESS=node1
+      - MAX_HEAP_SIZE=2048M
+    ports:
+      - "9042:9042"  
+    networks:
+      - private
+
+  cassandra2:
+    image: cassandra:latest
+    container_name: node2
+    environment:
+      - CASSANDRA_CLUSTER_NAME=Cluster1
+      - CASSANDRA_DC=southeast-1
+      - CASSANDRA_ENDPOINT_SNITCH=GossipingPropertyFileSnitch
+      - CASSANDRA_SEEDS=node1,node2
+      - CASSANDRA_BROADCAST_ADDRESS=node2
+      - MAX_HEAP_SIZE=2048M
+    ports:
+      - "9142:9042"
+    networks:
+      - private
+
+
+networks:
+  private:
