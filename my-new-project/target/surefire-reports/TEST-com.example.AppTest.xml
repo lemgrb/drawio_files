@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.AppTest" time="0.027" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.AppTest" time="0.034" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="exec.mainClass" value="com.example.App"/>
     <property name="java.specification.version" value="21"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/temurin-21-jdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/lemuel/Documents/repositories/drawio_files/my-new-project/target/surefire/surefirebooter7077914641726027616.jar /home/lemuel/Documents/repositories/drawio_files/my-new-project/target/surefire 2025-10-05T15-42-49_470-jvmRun1 surefire6083960024966255656tmp surefire_017463438983274093093tmp"/>
+    <property name="sun.java.command" value="/home/lemuel/Documents/repositories/drawio_files/my-new-project/target/surefire/surefirebooter4991975798444847721.jar /home/lemuel/Documents/repositories/drawio_files/my-new-project/target/surefire 2025-10-05T15-45-31_913-jvmRun1 surefire9793808358580603318tmp surefire_013364509983409445697tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/lemuel/Documents/repositories/drawio_files/my-new-project/target/test-classes:/home/lemuel/Documents/repositories/drawio_files/my-new-project/target/classes:/home/lemuel/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/lemuel/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/lemuel/.m2/repository/com/datastax/oss/java-driver-core/4.17.0/java-driver-core-4.17.0.jar:/home/lemuel/.m2/repository/com/datastax/oss/native-protocol/1.5.1/native-protocol-1.5.1.jar:/home/lemuel/.m2/repository/io/netty/netty-handler/4.1.94.Final/netty-handler-4.1.94.Final.jar:/home/lemuel/.m2/repository/io/netty/netty-common/4.1.94.Final/netty-common-4.1.94.Final.jar:/home/lemuel/.m2/repository/io/netty/netty-resolver/4.1.94.Final/netty-resolver-4.1.94.Final.jar:/home/lemuel/.m2/repository/io/netty/netty-buffer/4.1.94.Final/netty-buffer-4.1.94.Final.jar:/home/lemuel/.m2/repository/io/netty/netty-transport/4.1.94.Final/netty-transport-4.1.94.Final.jar:/home/lemuel/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.94.Final/netty-transport-native-unix-common-4.1.94.Final.jar:/home/lemuel/.m2/repository/io/netty/netty-codec/4.1.94.Final/netty-codec-4.1.94.Final.jar:/home/lemuel/.m2/repository/com/datastax/oss/java-driver-shaded-guava/25.1-jre-graal-sub-1/java-driver-shaded-guava-25.1-jre-graal-sub-1.jar:/home/lemuel/.m2/repository/com/typesafe/config/1.4.1/config-1.4.1.jar:/home/lemuel/.m2/repository/com/github/jnr/jnr-posix/3.1.15/jnr-posix-3.1.15.jar:/home/lemuel/.m2/repository/com/github/jnr/jnr-ffi/2.2.11/jnr-ffi-2.2.11.jar:/home/lemuel/.m2/repository/com/github/jnr/jffi/1.3.9/jffi-1.3.9.jar:/home/lemuel/.m2/repository/com/github/jnr/jffi/1.3.9/jffi-1.3.9-native.jar:/home/lemuel/.m2/repository/org/ow2/asm/asm/9.2/asm-9.2.jar:/home/lemuel/.m2/repository/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar:/home/lemuel/.m2/repository/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar:/home/lemuel/.m2/repository/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar:/home/lemuel/.m2/repository/org/ow2/asm/asm-util/9.2/asm-util-9.2.jar:/home/lemuel/.m2/repository/com/github/jnr/jnr-a64asm/1.0.0/jnr-a64asm-1.0.0.jar:/home/lemuel/.m2/repository/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.jar:/home/lemuel/.m2/repository/com/github/jnr/jnr-constants/0.10.3/jnr-constants-0.10.3.jar:/home/lemuel/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/home/lemuel/.m2/repository/io/dropwizard/metrics/metrics-core/4.1.18/metrics-core-4.1.18.jar:/home/lemuel/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/home/lemuel/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar:/home/lemuel/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar:/home/lemuel/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar:/home/lemuel/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/lemuel/.m2/repository/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar:/home/lemuel/.m2/repository/com/github/spotbugs/spotbugs-annotations/3.1.12/spotbugs-annotations-3.1.12.jar:/home/lemuel/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/lemuel/Documents/repositories/drawio_files/my-new-project/target/surefire/surefirebooter7077914641726027616.jar"/>
+    <property name="surefire.real.class.path" value="/home/lemuel/Documents/repositories/drawio_files/my-new-project/target/surefire/surefirebooter4991975798444847721.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.8+9-LTS"/>
     <property name="user.name" value="lemuel"/>
@@ -55,5 +55,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.example.AppTest" time="0.002"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.example.AppTest" time="0.003"/>
 </testsuite>
